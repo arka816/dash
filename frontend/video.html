@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="video.css">
+        <script src="video.js"></script>
+    </head>
+    <body onload="startStream()">
+        <div id="videoContainer">
+            <video muted="muted" preload="auto" controls id="video" width="800" height="400" ></video>
+            <div id="videoControls">
+                <div id="seekBar"></div>
+                <div id="shownBar"></div>
+            </div>
+        </div>
+        <form method="POST" enctype="multipart/form-data" action="http://localhost:3000/upload">
+            <input type="text" name="title">
+            <input type="file" name="video">
+            <br />
+            <input type="submit">
+        </form>
+    </body>
+</html>

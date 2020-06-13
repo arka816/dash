@@ -1,0 +1,56 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+video{
+    position: relative;
+    top: 0px;
+}
+#videoContainer{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    height: 460px;
+    width: 800px;
+    background-color: black;
+}
+#videoControls{
+    width: 800px;
+    height: 60px;
+    background-color: transparent;
+    position: relative;
+}
+form{
+    width: 40vw;
+    position: relative;
+    left: 0;
+    top: 10vw;
+    text-align: left;
+}
+#seekBar{
+    position: absolute;
+    width: 790px;
+    height: 6px;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 3px;
+}
+#shownBar{
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
